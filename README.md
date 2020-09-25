@@ -21,7 +21,9 @@ __IMPORTANT NOTES__
 
 ![](images/card_parser.png)
 
-2. The first_name and last_name text files must be kept in the same directory as the executable file. Separating the files will lead to errors in the application and will cause it to crash.
+2. The first_name and last_name text files must be kept in the same directory as the executable file. Separating the files will lead to errors in the application and the application will not run properly.
+
+3. The current build for the application was created in a Cygwin environment. Builds for other environments may be added in future implementations.
 
 Once the information has been parsed and displayed, users can save the data to a csv file by using the save file button. This will create a saved_cards directory in the application root directory, with the data saved under headers in the following order: Last name, first name, phone number, and email address.
 
