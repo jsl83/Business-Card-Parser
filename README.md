@@ -9,7 +9,7 @@
 
 ### Description
 
-The business card parser is a tool developed using the Python programming language to quickly pull key information from a document containing business card information. Specifically, the parser will identify the card owner's name, telephone number, and email address, in order to quickly record contact information for future use. This repository contains a stand-alone executable which can be used out of the box and will launch a GUI interface for users to enter text data, as well as a python module that can be directly incorporated into an existing python project.
+The business card parser is a tool developed using the Python programming language to quickly pull key information from a document containing business card information. Specifically, the parser will identify the card owner's name, telephone number, and email address, in order to quickly record contact information for future use. This repository contains a stand-alone executable which can be used out of the box and will launch a GUI interface for users to enter text data, as well as a python module that can be directly incorporated into an existing python project. The executable file was built from the source code files using pyinstaller.
 
 ### Using the App
 
